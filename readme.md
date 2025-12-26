@@ -1,4 +1,4 @@
-<h1 align="center"> VectorQuery </h1>
+<h1 align="center"> InfoGPT </h1>
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 
 ## Purpose
 
-**VectorQuery** is an intelligent document Q&A system that empowers you to have conversations with your own documents using cutting-edge Large Language Models (LLMs) and vector databases. With an intuitive Streamlit-based web interface, VectorQuery enables you to upload and index various document types (PDF, TXT, CSV, DOCX, etc.), then query them using natural language to receive accurate, contextually-aware answers.
+**InfoGPT** is an intelligent document Q&A system that empowers you to have conversations with your own documents using cutting-edge Large Language Models (LLMs) and vector databases. With an intuitive Streamlit-based web interface, InfoGPT enables you to upload and index various document types (PDF, TXT, CSV, DOCX, etc.), then query them using natural language to receive accurate, contextually-aware answers.
 
 The system leverages **Retrieval Augmented Generation (RAG)** technology to combine semantic document search with powerful AI models, ensuring responses are grounded in your actual document content. This approach eliminates hallucinations and provides reliable, source-backed answers.
 
@@ -22,7 +22,7 @@ The system leverages **Retrieval Augmented Generation (RAG)** technology to comb
 - 🤖 **OpenAI GPT Models** - Industry-standard ChatGPT models  
 - 💻 **Local LLama Models** - Privacy-focused local inference (GGUF format)
 
-VectorQuery is perfect for researchers, students, professionals, legal teams, and anyone who needs to quickly extract insights from their document collections while maintaining full control over their data.
+InfoGPT is perfect for researchers, students, professionals, legal teams, and anyone who needs to quickly extract insights from their document collections while maintaining full control over their data.
 
 ---
 
@@ -33,9 +33,10 @@ Built with Langchain, LlamaCPP, Streamlit, ChromaDB and Sentence Transformers. W
 
 
 
-[![Demo Video](https://img.youtube.com/vi/0.jpg)](https://github.com/user-attachments/assets/f2121c28-0a38-4359-8140-a4988a2ad0c4)
+[![Demo Video](https://img.youtube.com/vi/0.jpg)](https://github.com/user-attachments/assets/460faf6f-66f6-4c2f-9558-72ad99a57ad4)
 
 <div align="center">
+<a href="https://github.com/user-attachments/assets/f70695ce-17f1-4fac-93e8-8c636fd05245">▶️ Alternate Demo Video Link</a>
 <a href="https://github.com/user-attachments/assets/460faf6f-66f6-4c2f-9558-72ad99a57ad4">▶️ Watch Demo Video</a>
 </div>
 
@@ -52,7 +53,7 @@ pip install -r requirements.txt
 
 ### Setting Up .env
 
-VectorQuery uses environment variables for easy configuration. You need to set up these variables before using the application.
+InfoGPT uses environment variables for easy configuration. You need to set up these variables before using the application.
 
 **For Google Gemini (Recommended):**
 1. Get your free API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
@@ -117,7 +118,7 @@ CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reins
 
 ### Indexing Your Documents
 
-VectorQuery accepts multiple document formats including PDF, TXT, CSV, DOCX, and others. To process your documents for semantic search, place them in the `document_sources` directory.
+InfoGPT accepts multiple document formats including PDF, TXT, CSV, DOCX, and others. To process your documents for semantic search, place them in the `document_sources` directory.
 
 After adding your documents to the `document_sources` folder, run the indexing process to embed your content into the ChromaDB vector database:
 
@@ -127,7 +128,7 @@ python3 ingest.py
 
 ### Launching the Web Interface
 
-VectorQuery features a Streamlit-powered web interface. Start the application using the launch script:
+InfoGPT features a Streamlit-powered web interface. Start the application using the launch script:
 
 ```
 python3 run.py

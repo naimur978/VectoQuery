@@ -33,7 +33,7 @@ Built with Langchain, LlamaCPP, Streamlit, ChromaDB and Sentence Transformers. W
 
 
 
-[![Demo Video](https://img.youtube.com/vi/0.jpg)](https://github.com/user-attachments/assets/460faf6f-66f6-4c2f-9558-72ad99a57ad4)
+[![Demo Video](https://img.youtube.com/vi/0.jpg)](https://github.com/user-attachments/assets/f2121c28-0a38-4359-8140-a4988a2ad0c4)
 
 <div align="center">
 <a href="https://github.com/user-attachments/assets/460faf6f-66f6-4c2f-9558-72ad99a57ad4">▶️ Watch Demo Video</a>
